@@ -4,6 +4,9 @@ android/JewelWarrior/assets/www/styles/*
 android/JewelWarrior/assets/www/scripts/*
 !.gitignore
 !README.md
+!phonegap-1.4.1.js
+!modernizr.js
+!sizzle.js
 android/JewelWarrior/src/styles/*.css
 !.gitignore
 android/JewelWarrior/src/scripts/*.js
