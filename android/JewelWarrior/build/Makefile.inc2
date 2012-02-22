@@ -1,0 +1,9 @@
+.PHONY: all clean install
+
+all: $(OBJ)
+
+clean:
+	rm -f $(OBJ)
+
+install: all
+	cp -t $(DST_DIR) $(OBJ)
