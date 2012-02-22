@@ -1,5 +1,5 @@
 #!/bin/bash
-export ROOT_DIR="$HOME/workspace.phonegap/JewelWarrior"
+export ROOT_DIR="$HOME/proj/jewel/android/JewelWarrior"
 make -e -I "$ROOT_DIR/build" $@
 
 #DIRS="../src/styles ../src/scripts"
