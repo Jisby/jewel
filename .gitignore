@@ -1,0 +1,14 @@
+android/JewelWarrior/assets/www/styles/*
+!.gitignore
+!README.md
+android/JewelWarrior/assets/www/scripts/*
+!.gitignore
+!README.md
+android/JewelWarrior/src/styles/*.css
+!.gitignore
+android/JewelWarrior/src/scripts/*.js
+!.gitignore
+android/JewelWarrior/bin/*
+!.gitignore
+android/JewelWarrior/gen/*
+!.gitignore
