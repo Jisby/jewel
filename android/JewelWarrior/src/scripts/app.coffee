@@ -11,7 +11,7 @@ class App
     # add application screen
     addScreen: (screenId, screen) ->
         @screens[screenId] = screen
-
+ 
     # hide active screen and show specified screen
     showScreen: (screenId) ->
         # hide current screen
@@ -43,7 +43,7 @@ class App
             e.preventDefault()
 
     hideAndroidAddressBar: ->
-        # hide android browser address by scrolling to the top of the page
+        # hide android browser address bar by scrolling to the top of the page
         if /Android/.test navigator.userAgent
             @dom.$('html')[0].style.height = '200%'
             setTimeout (-> window.scrollTo 0, 1), 0
